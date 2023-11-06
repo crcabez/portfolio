@@ -8,7 +8,7 @@
             "type": "msedge",
             "request": "launch",
             "name": "Open main.html",
-            "file": "c:\\Users\\crica\\source\\portfolio\\content\\main copy.html"
+            "file": "c:\\Users\\crica\\source\\portfolio\\index.html"
         }
     ]
 }
