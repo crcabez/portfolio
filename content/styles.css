@@ -1,0 +1,335 @@
+/* Estilo para el encabezado */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Estilo para las áreas/zonas */
+/*.area {
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Estilo para los títulos de áreas/zonas */
+/* .area h2 {
+//    font-size: 24px;
+//}
+
+/* Estilo para los enlaces o interacción en áreas/zonas (puedes personalizar más) */
+/*.area a {
+    color: #007bff;
+    text-decoration: none;
+}
+/* Estilo para las áreas/zonas que funcionan como botones */
+/*.area {
+    background-color: #007bff; /* Color de fondo de botón */
+    /* color: #fff;
+    padding: 20px;
+    text-align: center;
+    border: 2px solid #007bff; /* Borde del botón */
+    /*text-decoration: none; /* Quita el subrayado del enlace */
+    /*display: inline-block; /* Hace que se comporte como un bloque */
+    /*transition: background-color 0.3s; /* Transición de color al pasar el cursor */
+    /*border-radius: 5px; /* Borde redondeado del botón */
+    /*margin: 10px; */
+/*}
+
+/* Estilo para cambiar el color de fondo al pasar el cursor */
+/*.area:hover {
+    background-color: #0056b3; /* Cambia el color de fondo al pasar el cursor */
+/*}
+/* Establece el fondo de la página en negro */
+body {
+    background-color: #000;
+}
+
+
+
+/* Estilo para las áreas/zonas que funcionan como burbujas */
+.area1 {
+    background-image: url('icons/academic.svg');
+    background-size: cover;
+    background-color: #007bff; /* Color de fondo de la burbuja */
+    color: #fff;
+    border: 2px solid #007bff; /* Borde de la burbuja */
+    border-radius: 50%; /* Borde redondeado para crear burbuja */
+    width: 250px; /* Ancho de la burbuja */
+    height: 250px; /* Alto de la burbuja */
+    text-align: center;
+    display: inline-flex;
+    align-items: normal; /* Centra verticalmente el contenido */
+    justify-content: justify; /* Centra horizontalmente el contenido */
+    margin: 20px; /* Espaciado entre burbujas */
+    transition: background-color 0.3s; /* Transición de color al pasar el cursor */
+    font-size: 18px; /* Tamaño de fuente del texto */
+    text-decoration: none; /* Quita el subrayado del enlace */
+    /*line-height: 100px; /* Centra verticalmente el texto en la burbuja */
+}
+
+
+/* Estilo para los pop-ups */
+.area1 .popup {
+    display: none;
+    background-color: rgba(0, 0, 0, 0.8); /* Fondo oscuro para el pop-up */
+    color: #fff; /* Color del texto del pop-up */
+    padding: 10px;
+    position: absolute;
+    border-radius: 5px;
+    bottom: 100px; /* Alineación del pop-up en la parte inferior de la burbuja */
+    text-align: center;
+    transform: translateX(25%); /* Centrar horizontalmente */
+    transition: opacity 0.3s;
+}
+
+/* Estilo para cambiar el color de fondo al pasar el cursor */
+.area1:hover {
+    background-color: #0056b3; /* Cambia el color de fondo al pasar el cursor */
+    background-image: url('icons/academicB.svg');
+    background-size: cover;
+}
+
+/* Estilo para mostrar el pop-up al pasar el cursor */
+.area1:hover .popup {
+    display: block;
+}
+
+
+/* Estilo para las áreas/zonas que funcionan como burbujas */
+.area2 {
+    background-image: url('icons/house.svg');
+    background-size: cover;
+    background-color: #00c3ff; /* Color de fondo de la burbuja */
+    color: #fff;
+    border: 2px solid #007bff; /* Borde de la burbuja */
+    border-radius: 50%; /* Borde redondeado para crear burbuja */
+    width: 250px; /* Ancho de la burbuja */
+    height: 250px; /* Alto de la burbuja */
+    text-align: center;
+    display: inline-flex;
+    align-items: normal; /* Centra verticalmente el contenido */
+    justify-content: justify; /* Centra horizontalmente el contenido */
+    margin: 20px; /* Espaciado entre burbujas */
+    transition: background-color 0.3s; /* Transición de color al pasar el cursor */
+    font-size: 18px; /* Tamaño de fuente del texto */
+    text-decoration: none; /* Quita el subrayado del enlace */
+    /*line-height: 100px; /* Centra verticalmente el texto en la burbuja */
+}
+
+/* Estilo para los pop-ups */
+.area2 .popup {
+    display: none;
+    background-color: rgba(0, 0, 0, 0.8); /* Fondo oscuro para el pop-up */
+    color: #fff; /* Color del texto del pop-up */
+    padding: 10px;
+    position: absolute;
+    border-radius: 5px;
+    bottom: 100px; /* Alineación del pop-up en la parte inferior de la burbuja */
+    text-align: center;
+    transform: translateX(25%); /* Centrar horizontalmente */
+    transition: opacity 0.3s;
+}
+
+/* Estilo para cambiar el color de fondo al pasar el cursor */
+.area2:hover {
+    background-color: #0056b3; /* Cambia el color de fondo al pasar el cursor */
+    background-image: url('icons/houseb.svg');
+    background-size: cover;
+}
+.area2:hover .popup {
+    display: block;
+}
+
+/* Estilo para las áreas/zonas que funcionan como burbujas */
+.area3 {
+    background-color: #4792e2f1; /* Color de fondo de la burbuja */
+    background-image: url('icons/industrial.svg');
+    background-size: cover;
+    color: #fff;
+    border: 2px solid #007bff; /* Borde de la burbuja */
+    border-radius: 50%; /* Borde redondeado para crear burbuja */
+    width: 250px; /* Ancho de la burbuja */
+    height: 250px; /* Alto de la burbuja */
+    text-align: center;
+    display: inline-flex;
+    align-items: normal; /* Centra verticalmente el contenido */
+    justify-content: justify; /* Centra horizontalmente el contenido */
+    margin: 20px; /* Espaciado entre burbujas */
+    transition: background-color 0.3s; /* Transición de color al pasar el cursor */
+    font-size: 18px; /* Tamaño de fuente del texto */
+    text-decoration: none; /* Quita el subrayado del enlace */
+    /*line-height: 100px; /* Centra verticalmente el texto en la burbuja */
+}
+
+/* Estilo para los pop-ups */
+.area3 .popup {
+    display: none;
+    background-color: rgba(0, 0, 0, 0.8); /* Fondo oscuro para el pop-up */
+    color: #fff; /* Color del texto del pop-up */
+    padding: 10px;
+    position: absolute;
+    border-radius: 5px;
+    bottom: 100px; /* Alineación del pop-up en la parte inferior de la burbuja */
+    text-align: center;
+    transform: translateX(25%); /* Centrar horizontalmente */
+    transition: opacity 0.3s;
+}
+
+/* Estilo para cambiar el color de fondo al pasar el cursor */
+.area3:hover {
+    background-color: #0056b3; /* Cambia el color de fondo al pasar el cursor */
+    background-image: url('icons/industrialb.svg');
+    background-size: cover;
+}
+
+.area3:hover .popup {
+    display: block;
+}
+
+/* Estilo para las áreas/zonas que funcionan como burbujas */
+.area4 {
+    background-color: #5900ff; /* Color de fondo de la burbuja */
+    background-image: url('icons/infra.svg');
+    background-size: cover;
+    color: #fff;
+    border: 2px solid #007bff; /* Borde de la burbuja */
+    border-radius: 50%; /* Borde redondeado para crear burbuja */
+    width: 250px; /* Ancho de la burbuja */
+    height: 250px; /* Alto de la burbuja */
+    text-align: center;
+    display: inline-flex;
+    align-items: normal; /* Centra verticalmente el contenido */
+    justify-content: justify; /* Centra horizontalmente el contenido */
+    margin: 20px; /* Espaciado entre burbujas */
+    transition: background-color 0.3s; /* Transición de color al pasar el cursor */
+    font-size: 18px; /* Tamaño de fuente del texto */
+    text-decoration: none; /* Quita el subrayado del enlace */
+    /*line-height: 100px; /* Centra verticalmente el texto en la burbuja */
+}
+
+/* Estilo para los pop-ups */
+.area4 .popup {
+    display: none;
+    background-color: rgba(0, 0, 0, 0.8); /* Fondo oscuro para el pop-up */
+    color: #fff; /* Color del texto del pop-up */
+    padding: 0px;
+    position: absolute;
+    border-radius: 5px;
+    bottom: 100px; /* Alineación del pop-up en la parte inferior de la burbuja */
+    text-align: center;
+    transform: translateX(25%); /* Centrar horizontalmente */
+    transition: opacity 0.3s;
+}
+/* Estilo para cambiar el color de fondo al pasar el cursor */
+.area4:hover {
+    background-color: #0056b3; /* Cambia el color de fondo al pasar el cursor */
+    background-image: url('icons/infrab.svg');
+    background-size: cover;
+}
+
+.area4:hover .popup {
+    display: block;
+}
+
+/* Estilo para las áreas/zonas que funcionan como burbujas */
+.area5 {
+    background-color: #8c00ff; /* Color de fondo de la burbuja */
+    background-image: url('icons/parametric.svg');
+    background-size: cover;
+    color: #fff;
+    border: 2px solid #007bff; /* Borde de la burbuja */
+    border-radius: 50%; /* Borde redondeado para crear burbuja */
+    width: 250px; /* Ancho de la burbuja */
+    height: 250px; /* Alto de la burbuja */
+    text-align: center;
+    display: inline-flex;
+    align-items: normal; /* Centra verticalmente el contenido */
+    justify-content: justify; /* Centra horizontalmente el contenido */
+    margin: 20px; /* Espaciado entre burbujas */
+    transition: background-color 0.3s; /* Transición de color al pasar el cursor */
+    font-size: 18px; /* Tamaño de fuente del texto */
+    text-decoration: none; /* Quita el subrayado del enlace */
+    /*line-height: 100px; /* Centra verticalmente el texto en la burbuja */
+}
+/* Estilo para los pop-ups */
+.area5 .popup {
+    display: none;
+    background-color: rgba(0, 0, 0, 0.8); /* Fondo oscuro para el pop-up */
+    color: #fff; /* Color del texto del pop-up */
+    padding: 10px;
+    position: absolute;
+    border-radius: 5px;
+    bottom: -200px; /* Alineación del pop-up en la parte inferior de la burbuja */
+    text-align: center;
+    transform: translateX(25%); /* Centrar horizontalmente */
+    transition: opacity 0.3s;
+}
+
+/* Estilo para cambiar el color de fondo al pasar el cursor */
+.area5:hover {
+    background-color: #0056b3; /* Cambia el color de fondo al pasar el cursor */
+    background-image: url('icons/parametricb.svg');
+    background-size: cover;
+}
+
+.area5:hover .popup {
+    display: block;
+}
+
+/* Estilo para las áreas/zonas que funcionan como burbujas */
+.area6 {
+    background-color: #41c4c9ef; /* Color de fondo de la burbuja */
+    background-image: url('icons/research.svg');
+    background-size: cover;
+    color: #fff;
+    border: 2px solid #007bff; /* Borde de la burbuja */
+    border-radius: 50%; /* Borde redondeado para crear burbuja */
+    width: 250px; /* Ancho de la burbuja */
+    height: 250px; /* Alto de la burbuja */
+    text-align: center;
+    display: inline-flex;
+    align-items: normal; /* Centra verticalmente el contenido */
+    justify-content: justify; /* Centra horizontalmente el contenido */
+    margin: 20px; /* Espaciado entre burbujas */
+    transition: background-color 0.3s; /* Transición de color al pasar el cursor */
+    font-size: 18px; /* Tamaño de fuente del texto */
+    text-decoration: none; /* Quita el subrayado del enlace */
+    /*line-height: 100px; /* Centra verticalmente el texto en la burbuja */
+}
+/* Estilo para los pop-ups */
+.area6 .popup {
+    display: none;
+    background-color: rgba(0, 0, 0, 0.8); /* Fondo oscuro para el pop-up */
+    color: #fff; /* Color del texto del pop-up */
+    padding: 10px;
+    position: absolute;
+    border-radius: 5px;
+    bottom: -200px; /* Alineación del pop-up en la parte inferior de la burbuja */
+    text-align: center;
+    transform: translateX(25%); /* Centrar horizontalmente */
+    transition: opacity 0.3s;
+}
+
+/* Estilo para cambiar el color de fondo al pasar el cursor */
+.area6:hover {
+    background-color: #0056b3; /* Cambia el color de fondo al pasar el cursor */
+    background-image: url('icons/researchb.svg');
+    background-size: cover;
+}
+
+.area6:hover .popup {
+    display: block;
+}
+
+/* Estilo para el botón de cambio de idioma */
+#language-toggle {
+    background-color: #3d4a58;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
